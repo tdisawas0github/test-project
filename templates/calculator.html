@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Calculator</h1>
+<form method="post">
+    <input type="number" name="a" placeholder="Enter first number" required>
+    <input type="number" name="b" placeholder="Enter second number" required>
+    <button type="submit">Calculate</button>
+</form>
+<p><a href="/">Back to Home</a></p>
+{% endblock %}
